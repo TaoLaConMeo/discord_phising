@@ -11,7 +11,8 @@
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "styled-components": "^6.1.17"
+    "styled-components": "^6.1.17",
+    "supports-color": "^10.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

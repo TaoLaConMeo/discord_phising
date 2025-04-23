@@ -3,13 +3,13 @@ import sql from 'mssql';
 
 // 📌 Cấu hình kết nối SQL Server
 const config: sql.config = {
-  server: process.env.DB_SERVER!,         // Ví dụ: 'localhost'
-  database: process.env.DB_DATABASE!,     // Ví dụ: 'PhishingTest'
-  user: process.env.DB_USER!,             // Ví dụ: 'sa' hoặc 'Truong'
-  password: process.env.DB_PASSWORD!,     // Mật khẩu tài khoản SQL
+  server: process.env.DB_SERVER!,         
+  database: process.env.DB_DATABASE!,     
+  user: process.env.DB_USER!,             
+  password: process.env.DB_PASSWORD!,     
   options: {
-    encrypt: true,                        // Giữ nguyên nếu dùng SQL Server
-    trustServerCertificate: true,         // Cho phép tự ký SSL
+    encrypt: true,                       
+    trustServerCertificate: true,        
   },
 };
 
