@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("/background.jpg") center/cover no-repeat #36393f;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #36393f; /* fallback */
+}
+.fullscreen-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("/background.jpg") center/cover no-repeat;
+}
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
